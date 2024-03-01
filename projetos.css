@@ -1,0 +1,28 @@
+@media screen and (max-width:980px) {
+    nav {
+        display: none;
+    }
+
+    .nav-responsive {
+        display: block;
+    }
+
+    nav.responsive {
+        display: flex;
+        position: fixed;
+        height: 150px;
+        top: 60px;
+        background-color: #1a1f24;
+        width: 180px;
+        border-radius: 15px;
+    }
+
+    nav.responsive ul {
+        display: table-column !important;
+    }
+
+    nav.responsive ul li {
+        border-bottom: 1px solid #fff;
+        padding: 5px 0;
+    }
+}
