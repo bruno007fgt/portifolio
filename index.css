@@ -18,7 +18,7 @@ ul {
 }
 
 a {
-    color: rgb(244, 244, 244);
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
@@ -93,7 +93,7 @@ footer p {
 
 .contenedor-header header nav ul li a {
     text-align: none;
-    color: #fff;
+    color: #a13899;
     margin: 0 15px;
     padding: 3px;
     transition: .5s;
@@ -102,7 +102,7 @@ footer p {
 
 
 .nav-responsive {
-    color: #fff;
+    color: #fdfcfc;
     padding: 5px 10px;
     cursor: pointer;
     display: none;
